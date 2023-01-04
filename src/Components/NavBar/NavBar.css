@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.right{
+    /* position: absolute; */
+    width: 36.72px;
+    height: 36.72px;
+    left: 80px;
+    top: 55px;
+    margin-top: 2%;
+}
+.test button{
+    width: 179px;
+    height: 18px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FBFBFB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.cur{
+
+    width: 28.76px;
+    height: 49.68px;
+    left: 1185.72px;
+    top: 40px;
+
+}
+@media (max-width: 620px){
+    .right img{
+        width: 20px;
+        height: 20px;
+        left: 32px;
+        margin-left: 10px;
+        margin-top: 18px;
+    }
+    .test button{
+        margin-right: 10px;
+        background: #000000;
+        color: #FBFBFB;
+        width: 150px;
+        font-size: 10px;
+    }
+    .cur{
+        margin-left: 75px;
+        width: 20px;
+        height: 30px;
+    }
+    
+}
+@media (min-width:720px) and (max-width:1023px){
+    .left{
+        width: 80px;
+        margin-right: 65px;
+        margin-top: 20px;
+    }
+    
+
+}

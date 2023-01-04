@@ -1,0 +1,18 @@
+.shpe img{
+    width: 400px;
+    height: 200px;
+    margin-left: -600px;
+    margin-top: 13px;
+}
+@media (max-width: 420px){
+    .shpe img{
+        width: 250px;
+        height: 150px;
+        margin-left: -100px;
+    }
+}
+@media (min-width: 720px) and (max-width: 1023px){
+    .shpe img{
+        margin-left: 20px;
+    }
+}

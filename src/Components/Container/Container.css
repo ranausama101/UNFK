@@ -1,0 +1,12 @@
+@media only screen and (max-width:600px){
+    .apple img{
+        margin-left: -65px;
+        width: 400px;
+    }
+}
+@media (min-width:750px) and (max-width:1020px){
+    .apple img{
+        margin-left: -55px;
+        width: 600px;
+    }
+}

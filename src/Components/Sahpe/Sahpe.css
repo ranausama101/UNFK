@@ -1,0 +1,105 @@
+.Shape{
+    display: flex;
+}
+.side h1{
+    width: 432px;
+    height: 96px;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-align: left;
+}
+.side p{
+    width: 430px;
+    height: 192px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+}
+.Two img {
+    width: 433px;
+    height: 624.33px;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+.all{
+    display: none;
+}
+@media only screen and (max-width: 420px){
+ .side h1{
+    width: 274px;
+    height: 64px;
+    left: 36px;
+    top: 523px;
+    margin-left: 20px;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    
+ }
+ .side p{
+    width: 174px;
+    height: 242px;
+    left: 36px;
+    top: 611px;
+    margin-left: 20px;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+ }
+ .Two img{
+    /* display: none; */
+    width: 160px;
+    height: 410px;
+    margin-left: -80px;
+    margin-top: 75px;
+    clip-path: inset(40px 0 0 0);
+    object-fit: cover;
+    object-position: 0% 100%;      
+}
+/* .all img{
+    width: 100px;
+} */
+    
+}
+
+@media (min-width:620px) and (max-width: 1080px){
+    .Shape{
+        display: flex;
+        flex-direction: column;
+    }
+    .Two img{
+        margin-left: -100px;
+    }
+    .side h1{
+        width: 700px;
+
+    }
+    .side p{
+        width: 700px;
+    }
+    .Two img{
+        width: 600px;
+        height: 800px;
+    }
+    .all{
+        display: none;
+    }
+    
+}

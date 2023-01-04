@@ -1,0 +1,203 @@
+.Paragarph{
+    display: flex;
+    margin-top: 80px;
+}
+.para h1{
+    width: 432px;
+    height: 192px;
+    margin-left: 100px;
+    text-align: left;
+    
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.para p{
+    width: 435px;
+    height: 128px;
+    margin-left: 100px;
+    margin-top: 5px;
+    text-align: left;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+/* or 133% */
+    color: #000000;
+}
+.black button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 717px;
+    top: 1696px;
+
+    background: rgba(0, 0, 0, 0.29);
+
+    width: 250px;
+    height: 35px;
+    margin-left: 78.67px;
+    margin-top: 260px;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #DFFE02;
+}
+.wite button{
+    width: 300px;
+    height: 40px;
+    left: 717px;
+    top: 1752px;
+
+    background: #FFFFFF;
+    width: 250px;
+    height: 35px;
+    margin-left: 254.7500px;
+    margin-top: 170px;
+
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.imgee img{
+    width: 47px;
+    height: 47px;
+    margin-left: 200px;
+     top: -3px;
+    /* padding-top: -12px; */
+    margin-bottom: 17px;
+
+    /* transform: matrix(-0.84, 0.54, 0.54, 0.84, 0, 0); */
+    /* opacity: 1; */
+    /* padding-bottom: 50px; */
+}
+@media (max-width: 620px){
+    .Paragarph{
+        display: flex;
+        flex-direction: column;
+    }
+    .para h1{
+        width: 243px;
+        height: 128px;
+        left: 36px;
+        top: 1235px;
+        margin-left: 50px;
+
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .para p{
+        width: 305px;
+        height: 110px;
+        left: 36px;
+        top: 1387px;
+        margin-left: 50px;
+
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+    .web{
+        display: flex;
+        flex-direction: column;
+    }
+    .back button{
+        width: 300px;
+        height: 40px;
+        left: 42px;
+        top: 1540px;
+        margin-left: 10px;
+        margin-top: px;
+        background: rgba(0, 0, 0, 0.29);
+        color: #DFFE02;
+    }
+    .wite button{
+        
+        background: #FFFFFF;
+        width: 300px;
+        height: 40px;
+        left: 42px;
+        top: 1540px;
+        margin-top: 10px;
+        margin-left: 10px;
+
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 17px;
+/* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+
+    }
+    .imgee img{
+        margin-top: -10px;
+    }
+}
+@media (min-width: 720px) and (max-width: 1020px){
+    .Paragarph{
+        display: flex;
+        flex-direction: column;
+    }
+    .back button{
+        margin-left: -240px;
+        margin-top: 50px;
+        background: rgba(0, 0, 0, 0.29);
+        color: #DFFE02;
+        width: 400px;
+        height: 40px;
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .wite button{
+        margin-left: -240px;
+        margin-top: 30px;
+        width: 400px;
+        height: 40px;
+        font-family: 'Inconsolata';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 17px;
+        background: #FFFFFF;
+    }
+    .imgee img{
+        margin-left: -180px;
+        margin-top: -1px;
+    }
+
+}
